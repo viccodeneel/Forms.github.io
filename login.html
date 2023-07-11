@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<script src="code.jquery.com_jquery-3.7.0.min.js"> </script>
+		<link rel="stylesheet" href="login.css">
+		<title>Login Page</title>
+
+<script>
+$(document).ready(function(){
+	$("a").click(function(){
+		$(".one").hide(1000);
+		$(".two,.log").show(1000);
+	});
+	$(document).ready(function(){
+	$(".sp").click(function(){
+		$(".one").show(1000);
+		$(".two").hide(1000);
+	});
+});
+});
+</script>
+
+	</head>
+	<body>
+    
+   		<fieldset><legend></legend>
+   			 
+			<div id="signup" class="one">
+			<form>
+				<br>
+				<label>First Name</label>
+				<br>
+			    <input type="text" name="fn" id="fn" required>
+				<br>
+				<label>Last Name</label>
+				<br>
+				<input type="text" name="Ln" id="Ln" required>
+				<br>
+				<label>Email</label>
+				<br>
+				<input type="email" name="El" id="El" required>
+				<br>
+				<label>Password</label>
+				<br>
+				<input type="password" name="Pw" id="Pw" required>
+				<br>
+			<div class="check">	<input type="checkbox" name="Cb" id="Cb" required>I agree with the terms and conditions. <div>
+				
+				 <button>Sign Up</button>
+				 <br>
+				 
+              Already have an account? <a href="#">login</a>
+          </fieldset>
+              <fieldset class="log"><legend></legend>
+  <div id="login" class="two">
+  	<form>
+  		<label>User Name</label>
+				<br>
+			    <input type="text" name="fn" id="fn" required>
+				<br>
+				<label>Password</label>
+				<br>
+				<input type="password" name="Pw" id="Pw" required>
+				<br>
+				<br>
+				 <button>Log In</button>
+				 <br>
+				 Don't have an account? <a href="#" class="sp">Sign Up</a>
+  	</form>
+		</fieldset>
+		 <lin>
+		 &copy Vicco Deneel
+		  <lin>
+	</body>
+</html>
